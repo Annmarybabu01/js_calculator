@@ -1,0 +1,36 @@
+.container {
+    background-color:#f7f3f3be;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.userInputField {
+    font-size:50px;
+    font-weight: bold;
+    text-align: right;
+}
+.calaculatorButton button[type=button] {
+    border-radius:50%;
+    width:65px;
+    height: 65px;
+    font-size: 30px;
+    font-weight: 500;
+    cursor: pointer;
+    border: 2px solid black;
+}
+.calaculatorButton {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 15px;
+    grid-column-gap: 10px;
+}
+.mainBody {
+    border: 2px solid black;
+    border-radius:15px; 
+    padding:20px;
+    background-color:#f7f3f3be;
+}
+button:hover {
+    background-color: lightcoral;
+}
